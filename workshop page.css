@@ -1,0 +1,62 @@
+.div {
+	background-image :  linear-gradient(rgba(19, 26, 0, 0.5), rgba(26, 0, 0, 0.5)) , url("background.jpg");
+/*	background: #2BC0E4;  0
+	background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);
+	background: linear-gradient(to left, #EAECC6, #2BC0E4); */
+		background-size : cover;
+		background-repeat : no-repeat;
+		margin : 20px auto;
+		border : 20px solid #bdc3c7;
+		padding : 20px;
+		font-family : 'Source Sans Pro', sans-serif;
+		max-width : 700px ;
+		width : 80%;
+		color : white;
+		line-height: 1.6;
+	}
+
+.date {
+	color : #00ccff;
+	letter-spacing : 0.2rem;
+	text-transform : uppercase ;
+	padding-top : 5px;
+}
+
+h2{
+	text-transform : uppercase;
+	color : rgba(153, 255, 153);
+	font-weight : bold ;
+	font-size : 2.0rem;
+	/*text-shadow: 1px 1px 2px , 0 0 1em blue, 0 0 0.2em blue;*/
+}
+
+p:nth-of-type(1) {
+	border-left : 7px solid #bdc3c7;
+	padding : 7px;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(204, 204, 255, 0), rgba(204, 204, 255, 0.75), rgba(204, 204, 255, 0));
+}
+
+.post {
+	margin-bottom :20px;
+}
+
+label{
+	display: inline-block;
+	margin-right: 10px;
+	text-align: justify-all;
+	letter-spacing: 1.2px;
+}
+
+button {
+	height : 50px;
+}
+
+input{
+	color : black;
+}
